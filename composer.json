@@ -1,9 +1,8 @@
 {
-  "name": "vuestorefront/magento2-vue-cart-sync",
+  "name": "qbo-tech/magento2-vue-cart-sync",
   "description": "Synchronize Magento cart between Vue Storefront",
   "require": {
-    "php": "~7.1|~7.2",
-    "magento/magento2-base": "~2.2|~2.3"
+    "magento/magento2-base": "~2.2|~2.3|~2.4"
   },
   "type": "magento2-module",
   "version": "2.0.0",
@@ -27,6 +26,6 @@
     }
   },
   "suggest": {
-    "vendic/magento2-checkoutonly": "A module that enables you to limit access only the Magento checkout. Usefull for a PWA setup that uses the default Magento 2 checkout"
+    "qbo-tech/magento2-checkoutonly": "A module that enables you to limit access only the Magento checkout. Usefull for a PWA setup that uses the default Magento 2 checkout"
   }
 }
